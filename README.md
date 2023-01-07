@@ -4,7 +4,7 @@
 
 ### How to use this POC-demo repo
 
-These contracts pull from the example contracts in the NEAR dev documentation available [here](https://github.com/near-examples/NFT).
+This project hopes to serve as proof-of-concept of dApp privileges based on NFT ownership on NEAR. NEAR is an asynchronous blockchain that relies on sharding and cross-shard function calls/artifacts for throughput and usability. The simple contracts in this repo are capable of operating independently. However, this project aims to highlight how they may interoperate via thed cross-contract functionality built into NEAR. These contracts pull from the example contracts in the NEAR dev documentation available [here](https://github.com/near-examples/NFT).
 
 To get started:
 
