@@ -6,7 +6,7 @@
 
 This project hopes to serve as a proof-of-concept of dApp privileges based on NFT ownership on [NEAR](https://near.org/). NEAR is an asynchronous blockchain that relies on sharding and cross-shard function calls/artifacts for throughput and usability. The simple contracts in this repo are capable of operating independently. However, this project aims to highlight how they may interoperate via the cross-contract functionality built into NEAR. These contracts pull from the example contracts in the NEAR dev documentation available [here](https://github.com/near-examples/NFT).
 
-Briefly, this contract suite consists of a basic NFT collection contract capable of querying a token's owner. This querying is then integrated into a crowdsourcing-like donation contract. This donation allows NEAR holders to donate to a beneficiary -- likely the NFT holder. The NFT can reassign the `beneficiary` account using a `change_beneficiary` function and similarly instigate withdrawals. Privileges are transfered to the new owner when the NFT is transferred to another wallet.
+Briefly, this contract suite consists of a basic NFT collection contract capable of querying a token's owner. This querying is then integrated into a crowdsourcing-like donation contract. This donation contrac allows NEAR holders to donate to a beneficiary -- likely the NFT holder. The NFT can reassign the beneficiary account using a change_beneficiary function and similarly instigate withdrawals. Privileges are transfered to the new owner when the NFT is transferred to another wallet.
 
 To get started:
 
