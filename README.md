@@ -83,7 +83,7 @@ near call <donation account> withdrawal --accountId <priveleged account>
 near call <donation account> get_donations --accountId <account>
 ```
 
-14) Transfer the NFT, reset the privileges, change the beneficiary, and verify. Note: currently permissions have to be reset manually but hope to enforce this automatically moving forward
+14) Transfer the NFT, reset the privileges, change the beneficiary, and verify. Note: currently permissions have to be reset manually, but I hope to enforce this automatically moving forward
 ```=bash
 near call <deployment account> nft_transfer '{"token_id": "0", "receiver_id": "<account>", "memo": "enjoy"}' --accountId <receiver acount> --depositYocto 
 near call <donation account> privelege_check --accountId <account>
